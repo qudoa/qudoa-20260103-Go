@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10;
+    int sum = a + b;
+    printf("The sum of a and b is: %d\n", sum);
+    int multiplication = a * b;
+    printf("The multiplication of a and b is: %d\n", multiplication);
+    int difference = a - b;
+    printf("The difference of a and b is: %d\n", difference);
+    int division = a / b;
+    printf("The division of a and b is: %d\n", division);
+    int modulus = a % b;
+    printf("The modulus of a and b is: %d\n", modulus);
+    int c = 3;
+    int product = a * c;
+    printf("The product of a and c is: %d\n", product);
+    int sub = b - c;
+    printf("The subtraction of b and c is: %d\n", sub);
+    int div_c = b / c;
+    printf("The division of b and c is: %d\n", div_c);
+    int mod_c = b % c;
+    printf("The modulus of b and c is: %d\n", mod_c);
+    int d = 6;
+    int sum_ab = a + b + d;
+    printf("The sum of a, b and d is: %d\n", sum_ab);
+    int diff_ab = a - b + d;
+    printf("The difference of a, b and d is: %d\n", diff_ab);
+    int mult_ab = a * b * d;
+    printf("The multiplication of a, b and d is: %d\n", mult_ab);
+    int div_ab = a / b / d;
+    printf("The division of a, b and d is: %d\n", div_ab);
+    int mod_ab = a % b % d;
+    printf("The modulus of a, b and d is: %d\n", mod_ab);
+    return 0;
+}
